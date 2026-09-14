@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Deftones</title>
+    <link rel="stylesheet" href="deftones.css">
+</head>
+<body>
+
+<header>
+    <h1>Quiz Deftones</h1>
+
+    <nav>
+        <a href="index.html">Início</a>
+    <a href="sobre-portugues.html">Sobre</a>
+    <a href="favoritos-portugues.html">Favoritos</a>
+    <a href="noticias-portugues.html">Notícias</a>
+    <a href="quiz-portugues.html">Quiz</a>
+    <a href="quiz-ingles.html">English</a>
+    </nav>
+</header>
+
+<section>
+    <h2>Teste seus conhecimentos</h2>
+
+    <form id="quiz">
+
+        <p>1. Em que ano os Deftones foram formados?</p>
+        <input type="radio" name="q1" value="certo"> 1988<br>
+        <input type="radio" name="q1" value="errado"> 1992<br>
+        <input type="radio" name="q1" value="errado"> 1995<br><br>
+
+        <p>2. Quem é o vocalista da banda?</p>
+        <input type="radio" name="q2" value="certo"> Chino Moreno<br>
+        <input type="radio" name="q2" value="errado"> Mike Shinoda<br>
+        <input type="radio" name="q2" value="errado"> Corey Taylor<br><br>
+
+        <p>3. Qual álbum contém a música "Change (In the House of Flies)"?</p>
+        <input type="radio" name="q3" value="errado"> Around the Fur<br>
+        <input type="radio" name="q3" value="certo"> White Pony<br>
+        <input type="radio" name="q3" value="errado"> Gore<br><br>
+
+        <p>4. Qual destes é o guitarrista da banda?</p>
+        <input type="radio" name="q4" value="certo"> Stephen Carpenter<br>
+        <input type="radio" name="q4" value="errado"> Tom Morello<br>
+        <input type="radio" name="q4" value="errado"> Jerry Cantrell<br><br>
+
+        <p>5. Qual álbum foi lançado em 2010?</p>
+        <input type="radio" name="q5" value="errado"> Koi No Yokan<br>
+        <input type="radio" name="q5" value="certo"> Diamond Eyes<br>
+        <input type="radio" name="q5" value="errado"> Ohms<br><br>
+
+        <p>6. Quem substituiu Chi Cheng no baixo?</p>
+        <input type="radio" name="q6" value="errado"> Fieldy<br>
+        <input type="radio" name="q6" value="certo"> Sergio Vega<br>
+        <input type="radio" name="q6" value="errado"> Robert Trujillo<br><br>
+
+        <p>7. Qual álbum é considerado um dos mais influentes da banda?</p>
+        <input type="radio" name="q7" value="errado"> Gore<br>
+        <input type="radio" name="q7" value="certo"> White Pony<br>
+        <input type="radio" name="q7" value="errado"> Ohms<br><br>
+
+        <p>8. Em qual cidade os Deftones foram formados?</p>
+        <input type="radio" name="q8" value="errado"> Seattle<br>
+        <input type="radio" name="q8" value="certo"> Sacramento<br>
+        <input type="radio" name="q8" value="errado"> Los Angeles<br><br>
+
+        <p>9. Qual música abre o álbum "Around the Fur"?</p>
+        <input type="radio" name="q9" value="certo"> My Own Summer (Shove It)<br>
+        <input type="radio" name="q9" value="errado"> Be Quiet and Drive<br>
+        <input type="radio" name="q9" value="errado"> Mascara<br><br>
+
+        <p>10. Qual álbum foi lançado em 2020?</p>
+        <input type="radio" name="q10" value="certo"> Ohms<br>
+        <input type="radio" name="q10" value="errado"> Diamond Eyes<br>
+        <input type="radio" name="q10" value="errado"> Koi No Yokan<br><br>
+
+        <button type="button" onclick="checkquiz()">
+            Ver Resultado
+        </button>
+
+    </form>
+
+    <h3 id="resultado"></h3>
+
+</section>
+
+<script src="quiz-deftones.js"></script>
+
+</body>
+</html>
